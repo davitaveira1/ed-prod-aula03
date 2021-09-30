@@ -95,6 +95,11 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jPanel2.add(btAlterar);
 
         btExcluir.setText("Excluir");
+        btExcluir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btExcluirActionPerformed(evt);
+            }
+        });
         jPanel2.add(btExcluir);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -172,6 +177,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
         imprimirVetor();
         
     }//GEN-LAST:event_btAlterarActionPerformed
+
+    private void btExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btExcluirActionPerformed
+        // TODO add your handling code here:
+        
+        JOptionPane.showMessageDialog(null,"Será implementado pelos alunos");
+    }//GEN-LAST:event_btExcluirActionPerformed
 
     /**
      * @param args the command line arguments
